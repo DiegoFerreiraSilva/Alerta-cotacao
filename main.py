@@ -17,7 +17,7 @@ def enviar_email(cotacao_atual):
     msg['Subject'] = "Dólar hoje abaixo de 5.20"
     msg['From'] = 'remetente@gmail.com' # Alterar email
     msg['To'] = 'destinatario@gmail.com' # Alterar email
-    password = 'vuwuzbnzuyqyuoaj' # Gerar nova senha no GMAIL em "senhas de app do google"
+    password = 'senha' # Gerar nova senha no GMAIL em "senhas de app do google"
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
 
