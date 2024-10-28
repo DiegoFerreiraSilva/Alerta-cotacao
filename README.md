@@ -1,5 +1,5 @@
 # Alerta Cotação
-Caso a cotação do dólar esteja abaixo de R$5,20 será enviado um email informado 
+Código desenvolvindo em Python utilizando uma API de cotações de moedas, caso a cotação do dólar esteja abaixo de R$5,20 será enviado uma mensagem via email para o destinatário informado
 
 Bibliotecas:
 - Requests
